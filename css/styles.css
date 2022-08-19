@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/* main container */
+.main-flex-container{
+    outline:4px solid orange;
+    display:flex;
+    flex-direction:column;
+}
+/* header section  */
+.header-flex-column{
+    outline:4px solid red;
+    background-color:#f0ffff;
+    display:flex;
+    flex-direction:column;
+    /* flex-wrap: wrap; */
+    /* flex: auto; */
+    width: 100%;
+}
+/* nav */
+nav{
+    outline:3px solid black;
+    display:flex;
+    width:100%;
+    justify-content:center;
+}
+ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+
+/* two boxes inside navbar */
+.box-container-flex{
+     display:flex; 
+     justify-content: center;
+     align-items: center;
+}
+.logo{
+    
+}
+.links{
+    display:flex;   
+    /* margin-right:25rem; */
+    gap:2rem;
+}
+.box{
+    text-align:center;
+    display:flex;
+    outline:3px solid blue;
+    width:40%;
+    flex-direction:column;
+    /* margin-left:10rem; */
+}
+.box,.box2{
+    height:15rem;
+}
+
+.box2{
+    padding:25px;
+    display:flex;
+    /* height:20rem; */
+    outline:3px solid blue;
+    width:40%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+header,
+section,
+footer{
+    height:40vh;
+}
+section{
+    outline:3px solid purple;
+}
+footer{
+    outline: 3px solid beige;
+}
+button{
+    display: flex;
+    flex:0 1 auto;
+}
+.testing{
+    display:flex;
+    align-self:center;
+}
