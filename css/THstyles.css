@@ -1,15 +1,23 @@
 .nav {
     background-color: #949c81;
-    height: 100px;
+    height: 10vh;
 }
 .left {
     background-color: #efc1a9;
-    height: 742px;
+    height: 80vh;
 }
 .right {
     background-color: #ee9c81;
+    height: 80vh;
 }
 .footer {
     background-color: #3e503c;
-    height: 100px;
+    height: 10vh;
+}
+
+@media screen and (max-width: 769px) {
+    .right,
+    .left {
+        height: 40vh;
+    }
 }
